@@ -1,0 +1,12 @@
+.photo {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .photo img {
+    transition: transform 0.3s ease;
+  }
+  
+  .photo.hovered img {
+    transform: scale(1.1);
+  }
